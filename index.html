@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Satar Opeyemi Adebayo — Cloud Engineer Portfolio</title>
+  <meta name="description" content="Portfolio for entry-level cloud engineer Satar Opeyemi Adebayo. Showcasing cloud projects, skills, and contact info.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 id="hero-name">Satar Opeyemi Adebayo</h1>
+      <p id="hero-title">Entry-Level Cloud Engineer | AWS Enthusiast | Web Developer</p>
+      <div class="cta-row">
+        <a id="resume-link" class="btn" href="#projects">View Projects</a>
+        <a id="contact-top" class="btn btn-outline" href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p id="about-text">I’m a Computer Science graduate with a background in web development and a growing passion for cloud technologies. Currently working toward AWS certification, I enjoy building hands-on projects that combine cloud automation, scalability, and performance optimization.</p>
+      <ul id="skills" class="skill-list">
+        <li>AWS (S3, Lambda, EC2)</li>
+        <li>Linux / Bash</li>
+        <li>Docker</li>
+        <li>Git / GitHub</li>
+        <li>HTML / CSS / JavaScript</li>
+        <li>CI/CD (GitHub Actions / AWS CodePipeline)</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <p class="muted">Click any project to read details, view architecture, and open the code.</p>
+
+      <div class="project-grid">
+        <!-- Project Card 1: Static Website on S3 -->
+        <article class="project-card" data-project="s3-site">
+          <h3>Static Portfolio on AWS S3</h3>
+          <p class="muted">Host a static site using S3 + CloudFront. Demonstrates static hosting, bucket policies, and CDN configuration.</p>
+          <div class="project-meta">AWS S3 • CloudFront • Route53</div>
+          <div class="card-actions">
+            <button class="btn btn-sm" data-open="s3-site">Details</button>
+            <a class="btn btn-sm btn-outline" href="https://github.com/SatarAde/static-website-s3" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="card">
+      <h2>Certifications & Learning</h2>
+      <ul>
+        <li>AWS Certified Cloud Practitioner — <span class="muted">In Progress</span></li>
+        <li>Free training: AWS Skill Builder & Cloud labs</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>If you’d like to reach me: <a id="email-link" href="mailto:sataradebayo1@gmail.com">sataradebayo1@gmail.com</a></p>
+      <p class="muted">GitHub: <a id="github-link" href="https://github.com/SatarAde" target="_blank">github.com/SatarAde</a> • LinkedIn: <a id="linkedin-link" href="https://linkedin.com/in/SatarAde" target="_blank">linkedin.com/in/SatarAde</a></p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer container">
+    <small>Built with ❤️ — Template by ChatGPT, customized for Satar Opeyemi Adebayo</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+## 📦 Repository Structure
+```
+static-website-s3/
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
+```
